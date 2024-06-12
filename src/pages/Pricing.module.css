@@ -1,0 +1,22 @@
+.pricing section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+
+.pricing section img {
+  width: 100%;
+  align-self: center;
+}
+
+.pricing section h2 {
+  color: #ececec;
+  font-size: 40px;
+  word-spacing: 2px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.pricing section p {
+  color: #ececec;
+}
